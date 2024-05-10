@@ -63,3 +63,16 @@ html {
     }
   }
 }
+
+@keyframes waving {
+  0%, 100% {
+      transform: rotate(15deg);
+  }
+  50% {
+      transform: rotate(60deg);
+  }
+}
+
+.animate-waving {
+  animation: waving 2s 8000;
+}
