@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className="text-center lg:text-start space-y-6">
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline text-justify">
-            Welcome&nbsp;
+            Welcome{" "}
               <img
                 src="/assets/waving-hand.webp"
                 alt="waving hand"
@@ -17,7 +17,7 @@ export const Hero = () => {
                 srcSet="./src/assets/waving-hand.webp 1x, /assets/waving-hand.webp 2x"
               />
               <br />
-              I'm&nbsp;
+              I'm{" "}
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
               Yan
             </span>{" "}
@@ -26,9 +26,9 @@ export const Hero = () => {
           {" "}
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              Frontend Developer
+              Frontend
             </span>{" "}
-
+            Developer
           </h2>
         </main>
 

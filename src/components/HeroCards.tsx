@@ -1,6 +1,6 @@
 // import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import { Badge } from "./ui/badge";
-import { Button, buttonVariants } from "@/components/ui/button";
+// import { Badge } from "./ui/badge";
+import { buttonVariants } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -9,7 +9,7 @@ import {
   CardTitle,
   CardFooter,
 } from "@/components/ui/card";
-import { Check, Linkedin } from "lucide-react";
+import { Linkedin } from "lucide-react";
 // import { LightBulbIcon } from "./Icons";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
@@ -37,7 +37,7 @@ export const HeroCards = () => {
       </Card>
       */}
       {/* Team */}
-      <Card className="absolute right-[20px] top-4 w-80 flex flex-col justify-center items-center drop-shadow-xl shadow-black/10 dark:shadow-white/10">
+      <Card className="absolute right-[180px] top-8 w-80 flex flex-col justify-center items-center drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="mt-8 flex justify-center items-center pb-2">
           <img
             src="./src/assets/portrait-preview1.png"
@@ -89,7 +89,7 @@ export const HeroCards = () => {
       </Card>
 
       {/* Pricing */}
-      <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
+      {/*<Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
           <CardTitle className="flex item-center justify-between">
             Free
@@ -130,8 +130,9 @@ export const HeroCards = () => {
               )
             )}
           </div>
-        </CardFooter>
+          </CardFooter> 
       </Card>
+      */}
 
       {/* Service */}
       {/* <Card className="absolute w-[350px] -right-[10px] bottom-[35px]  drop-shadow-xl shadow-black/10 dark:shadow-white/10">

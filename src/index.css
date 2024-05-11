@@ -65,14 +65,23 @@ html {
 }
 
 @keyframes waving {
-  0%, 100% {
+  0%, 5% {
       transform: rotate(15deg);
   }
-  50% {
+ 5%, 10% {
       transform: rotate(60deg);
   }
+  10%, 20% {
+    transform: rotate(15deg);
+} 
+  20%, 30% {
+      transform: rotate(60deg);
+  }
+  30%, 100% {
+    transform: rotate(15deg);
+}
 }
 
 .animate-waving {
-  animation: waving 2s 8000;
+  animation: waving 2.75s infinite;
 }
