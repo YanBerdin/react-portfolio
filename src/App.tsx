@@ -13,6 +13,7 @@ import { Services } from "./components/Services";
 // import { Sponsors } from "./components/Sponsors";
 import { Team } from "./components/Team";
 import { Testimonials } from "./components/Testimonials";
+import { Skills } from "./components/Skills";
 import "./App.css";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Navbar />
       <Hero />
       {/*<Sponsors /> */}
+      <Skills />
       <About />
       <HowItWorks />
       <Features />
