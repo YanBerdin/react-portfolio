@@ -117,9 +117,9 @@ export const Skills = () => {
                 Specializing in
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
                     {" "}
-                    PHP & Javascript{" "}
+                    Javascript & PHP
+                    {" "}
                 </span>
-
                 with a core focus on{" "}
                 <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
                     React

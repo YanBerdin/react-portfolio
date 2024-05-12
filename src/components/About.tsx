@@ -1,4 +1,4 @@
-import { Statistics } from "./Statistics";
+// import { Statistics } from "./Statistics";
 import pilot from "../assets/pilot.png";
 
 export const About = () => {
@@ -33,6 +33,8 @@ export const About = () => {
                 Every obstacle encountered has been an opportunity for me to acquire new skills and strengthen my love for programming. The complexity of certain aspects of the training has reinforced my passion and determination to excel in this field. The more I practice, the more I discover the beauty and ingenuity of web development.
 
                 I am eager to continue expanding my knowledge and honing my skills in upcoming projects.
+
+                During my free time, I enjoy DJing and riding my fabulous motorcycle.
                 </p>
                 <p className="text-xl text-muted-foreground mt-4">
                 * DWWM = Web and Mobile Web Developer

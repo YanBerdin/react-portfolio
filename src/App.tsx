@@ -14,6 +14,7 @@ import { Services } from "./components/Services";
 import { Team } from "./components/Team";
 import { Testimonials } from "./components/Testimonials";
 import { Skills } from "./components/Skills";
+import {Project1} from "./components/Project1";
 import "./App.css";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <HowItWorks />
       <Features />
       <Services />
+      <Project1 />
       <Cta />
       <Testimonials />
       <Team />
