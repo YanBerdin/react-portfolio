@@ -15,7 +15,7 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export const HeroCards = () => {
   return (
-    <div className="lg:flex flex-row flex-wrap gap-8 relative w-[700px] h-[500px]">{/* hidden */}
+    <div className="lg:flex flex-row flex-wrap gap-8 relative mt-24 lg:mt-6 lg:ml-32 lg:w-[500px] md:h-[500px]">{/* hidden */}
       {/* Testimonial */}
       {/*}  <Card className="absolute w-[340px] -top-[15px] drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="flex flex-row items-center gap-4 pb-2">
@@ -37,16 +37,16 @@ export const HeroCards = () => {
       </Card>
       */}
       {/* Team */}
-      <Card className="absolute right-[180px] top-24 w-80 flex flex-col justify-center items-center drop-shadow-xl shadow-black/10 dark:shadow-white/10">
-        <CardHeader className="mt-8 flex justify-center items-center pb-2">
+      <Card className="lg:absolute lg:right-[180px] top-24 w-80 h-80 flex flex-col justify-center items-center drop-shadow-xl shadow-black/10 dark:shadow-white/10 max-sm:mt-32">
+        <CardHeader className="mt-8 flex justify-center items-center pb-2 mb-4">
           <img
             src="./src/assets/portrait-preview1.png"
             alt="user avatar"
-            className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square"
+            className="absolute grayscale-[0%] -top-16 rounded-full w-24 max-sm:w-32 md:-top-12 aspect-square"
           />
           <CardTitle className="text-center">Yan Berdin</CardTitle>
           <CardDescription className="font-normal text-primary">
-            Frontend Developer
+            React Developer
           </CardDescription>
         </CardHeader>
 
@@ -69,7 +69,7 @@ export const HeroCards = () => {
               })}
             >
               <span className="sr-only">Github icon</span>
-              <GitHubLogoIcon className="w-5 h-5" />
+              <GitHubLogoIcon className="w-5 h-5  mt-4" />
             </a>
 
             <a

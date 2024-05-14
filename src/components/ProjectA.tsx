@@ -1,7 +1,7 @@
 //import React from "react";
 import { Button } from "./ui/button";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
-// import { buttonVariants } from "./ui/button";
+import { buttonVariants } from "./ui/button";
 import { Badge } from "@/components/ui/badge";
 
 
@@ -12,6 +12,7 @@ const featureList: string[] = [
     "Redux",
     "Semantic.UI",
     "Axios",
+    "Rest API",
 ];
 
 export const ProjectA = () => {
@@ -46,14 +47,14 @@ export const ProjectA = () => {
                     ))}
                 </div>
             </section>
-            <div className="container lg:grid lg:grid-cols-2 place-items-center ">
-                <div className="lg:col-start-1 p-4 bg-card/40 rounded-2xl mt-4">
+            <div className="container lg:grid lg:grid-cols-2 md:place-items-center p-4">
+                <div className="lg:col-start-1 p-2 m-2 lg:w-[530px]">
 
-                    <p className="text-muted-foreground text-xl mb-8 lg:mb-0">
+                    <p className="text-muted-foreground text-md lg:text-xl mb-8 lg:mb-0">
                         DiscO’tech, a tribute to the O’clock school, is a music referencing application designed in mobile first to respond to music consumption habits in the digital age.
                     </p>
-                    <p className="text-muted-foreground text-xl mt-4 mb-8 lg:mb-0">The user space is designed to be intuitive and easy to navigate. Users can search for artists or albums, explore different musical genres, create their own playlists, and centralize their music library on a single application.</p>
-                    <p className="text-muted-foreground text-xl mt-4 mb-8 lg:mb-0 md:w-[600px]">
+                    <p className="text-muted-foreground text-md lg:text-xl mt-4 mb-8 lg:mb-0">The user space is designed to be intuitive and easy to navigate. Users can search for artists or albums, explore different musical genres, create their own playlists, and centralize their music library on a single application.</p>
+                    <p className="text-muted-foreground text-md lg:text-xl mt-4 mb-8 lg:mb-0 ">
                         <span className="bg-gradient-to-r from-[#fde047]  to-[#eed833] text-transparent bg-clip-text">
                             🔒{" "}
                         </span>
@@ -71,15 +72,16 @@ export const ProjectA = () => {
                             🔒{" "}
                         </span>Protection against CSRF (Cross-Site Request Forgery) attacks</p>
                 </div>
-
-                <div className="space-y-4 lg:col-start-2 ">
-                    <div className="w-full place-content-center mt-3">
+                    {/*        "p-4 bg-card/40 lg:col-start-1 rounded-2xl mt-4" */}
+               <div className=" lg:col-start-2 ">
+                    <div className=" place-content-center">
                         <img
                             src="../src/assets/github-explorer.jpeg"
-                            className="w-[700px] md:w-[700px] lg:w-[600px] object-contain rounded-md ml-8  mt-2"
+                            className=" w-[600px] object-cover rounded-xl"
                             alt="github explorer project"
                         />
                     </div>
+                    {/*
                     <Button
                         className="w-full md:mr-4 md:w-1/3 ml-8">
                         <a
@@ -106,9 +108,26 @@ export const ProjectA = () => {
                             Repo Github
                         </a>
                     </Button>
+                    */}
+            <div className="space-y-4 md:space-y-0 md:space-x-4 flex max-sm:flex-col justify-center mt-6">
+                      <Button className="w-full md:w-1/3 ">Contact</Button>
+                        <a
+                            rel="noreferrer noopener"
+                            href="https://github.com/YanBerdin"
+                            target="_blank"
+                            className={`w-full md:w-1/3 mt-0 ${buttonVariants({
+                                variant: "outline",
+                            })}`}
+                        >
+                            Repo Github
+                            <GitHubLogoIcon className="ml-2 w-5 h-5" />
+                        </a>
+                    </div>
 
                 </div>
+                
             </div>
+
         </section>
     );
 };

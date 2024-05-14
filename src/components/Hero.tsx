@@ -6,7 +6,7 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 export const Hero = () => {
   return (
     <section className="container grid lg:grid-cols-2 place-items-center py-20 md:py-32 gap-10">
-      <div className="text-center lg:text-start space-y-6 lg:ml-4">
+      <div className="text-center lg:text-start space-y-10 lg:space-y-6 lg:ml-4">
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline text-justify">
             Welcome{" "}
@@ -26,7 +26,7 @@ export const Hero = () => {
           {" "}
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              Frontend
+              React
             </span>{" "}
             Developer
           </h2>
@@ -53,7 +53,7 @@ export const Hero = () => {
       </div>
 
       {/* Hero cards sections */}
-      <div className="z-10">
+      <div className="z-10 max-sm:space-y-4">
         <HeroCards />
       </div>
 
