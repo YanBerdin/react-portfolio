@@ -15,6 +15,7 @@ import { Team } from "./components/Team";
 import { Testimonials } from "./components/Testimonials";
 import { Skills } from "./components/Skills";
 import {Project1} from "./components/Project1";
+import {ProjectA} from "./components/ProjectA";
 import "./App.css";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Services />
       <Project1 />
       <Cta />
+      <ProjectA />
       <Testimonials />
       <Team />
       <Pricing />
