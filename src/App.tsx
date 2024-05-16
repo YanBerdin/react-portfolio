@@ -12,10 +12,11 @@ import { ScrollToTop } from "./components/ScrollToTop";
 import { Services } from "./components/Services";
 // import { Sponsors } from "./components/Sponsors";
 import { Team } from "./components/Team";
-import { Testimonials } from "./components/Testimonials";
+// import { Testimonials } from "./components/Testimonials";
 import { Skills } from "./components/Skills";
 import {Project1} from "./components/Project1";
 import {ProjectA} from "./components/ProjectA";
+import {Form} from "./components/Form";
 import "./App.css";
 
 function App() {
@@ -32,7 +33,8 @@ function App() {
       <Project1 />
       <Cta />
       <ProjectA />
-      <Testimonials />
+      <Form />
+        {/*<Testimonials /> */}
       <Team />
       <Pricing />
       <Newsletter />

@@ -24,21 +24,21 @@ export const About = () => {
                 MYSELF
               </h2>
               <p className="text-md lg:text-xl text-muted-foreground mt-4">
-                In 2023, I obtained my professional title DWWM* from O’clock, a school specializing in remote training. With 20 years of experience in commerce, including as a retail store manager and e-commerce manager, my passion for the Web naturally led me to development.
+                Fascinated by programming from a young age thanks to my architect brother, who also became my mentor, I recently undertook a bold career change. After 20 years of experience in commerce and e-commerce, I decided to follow my passion for web development.
               </p>
-              <p className="text-md lg:text-xl text-muted-foreground mt-4">
-                My interest in programming dates back to my youth, influenced by my brother who became an architect. After exploring design and visual creation tools, I decided to take on the challenge and embark on this new adventure.
-              </p>
-              <p className="text-md lg:text-xl text-muted-foreground mt-4">
-                Every obstacle encountered has been an opportunity for me to acquire new skills and strengthen my love for programming. The complexity of certain aspects of the training has reinforced my passion and determination to excel in this field. The more I practice, the more I discover the beauty and ingenuity of web development.
 
-                I am eager to continue expanding my knowledge and honing my skills in upcoming projects.
-
-                During my free time, I enjoy DJing and riding my fabulous motorcycle.
-                </p>
-                <p className="text-md lg:text-xl text-muted-foreground mt-4">
-                * DWWM = Web and Mobile Web Developer
+              <p className="text-md lg:text-xl text-muted-foreground mt-4">
+                In 2023, I earned my Fullstack Web and Mobile Developer Professional Title (TP DWWM) through a remote training program with O'clock school.
               </p>
+
+              <p className="text-md lg:text-xl text-muted-foreground mt-4">
+                Web development, with its complexity and ingenuity, captivated my interest and fueled my desire to learn. Each challenge I encountered was an opportunity to acquire new skills and strengthen my passion.
+              </p>
+
+              <p className="text-md lg:text-xl text-muted-foreground mt-4">
+              Today, with a rigorous Fullstack training and a determination to excel in this field, I am eager to continue honing my skills through new projects.
+              </p>
+
             </div>
 
             {/*<Statistics />*/}
