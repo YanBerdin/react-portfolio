@@ -108,7 +108,7 @@ const pricingList: PricingProps[] = [
 export const Skills = () => {
     return (
         <section
-            id="pricing"
+            id="skills"
             className="container py-24 sm:py-32"
         >
 

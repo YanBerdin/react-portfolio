@@ -18,8 +18,8 @@ export const ProjectA = () => {
     return (
 
         <section
-            id="DiscO'tech"
-            className="bg-muted/90 py-16 my-24 sm:my-32"
+            id="ProjectA"
+            className="bg-muted/90 py-16 md:py-20 my-24 sm:my-32"
         >
             <section
                 id="features"
